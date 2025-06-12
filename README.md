@@ -63,12 +63,13 @@ Combines structured and textual inputs in multiple ways:
 | Late Fusion (ensemble) | ~0.68     |
 
 
+> ⚠️ **Note**: AUC may vary depending on data splits, feature quality, and text preprocessing.
+
 ### 🔍 Why the AUC Score is Low in This Prediction Model?
 
 In this prediction model for 30-day hospital readmission, the low AUC score can be primarily attributed to **severe class imbalance**, where a small minority of patients are actually readmitted compared to those who are not. This imbalance leads the model to favor the majority class, making it less sensitive to identifying true positives and ultimately lowering its discriminatory power, as reflected in the AUC score.
 
 
-> ⚠️ **Note**: AUC may vary depending on data splits, feature quality, and text preprocessing.
 
 
 
